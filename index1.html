@@ -6,9 +6,12 @@
     <title> DIAMOND|The Pomeranian Dog </title>
         <meta name="description" content="A photo gallery of the adorable pomeranian Diamond & her adventures">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
   		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-        <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
+        <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen"/>
+        <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+      
        
         <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
      
@@ -48,5 +51,11 @@
                 <footer>
                         <p>&copy; 2014</p>
                 </footer>
+                
+                <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
         </body>
 </html>
