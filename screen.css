@@ -1,5 +1,5 @@
 body {
-	background-color: #f0f0e8;
+	background-color: #ffffff;
 	color: #000000;
 	font-family: 'Nixie One', cursive;
 }
@@ -14,10 +14,12 @@ width: 100%;
 .thumbnail {
 	width: 150px;
 	height: 113px;
+	margin: 5px;
 	}
 
 ul {
-	float: right;
+
+	float: left;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -28,6 +30,7 @@ text-align: center;
 display: inline;
 
 }
+
 
 #content img {
 	width: 150px;
@@ -56,11 +59,15 @@ footer {
     #content
     {
     width:100%; 
+    
+    
 
 
 	
-h1 {
+content h1 {
+clear: both;
 font-size: 4em;
 color: #000000;
+margin: 5px;
 {
 
